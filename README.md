@@ -10,9 +10,10 @@ El Sistema de Recomendación de Libros es un código desarrollado en Java que bu
 2. [Funcionamiento](#funcionamiento)
 3. [Consideraciones](#consideraciones)
 4. [Impedimentos](#impedimentos)
-5. [Screenshots](#screenshots)
-6. [Contribución](#contribución)
-7. [Licencia](#licencia)
+5. [Roadmap](#roadmap)
+6. [Screenshots](#screenshots)
+7. [Contribución](#contribución)
+8. [Licencia](#licencia)
 
 ## Inicio Rápido
 
@@ -61,15 +62,24 @@ El funcionamiento del sistema es el siguiente:
 1. Este sistema ha sido diseñado siguiendo el formato utilizado por la Universidad Tecnológica del Perú para organizar su Plan de Estudios y Récord de Notas. La conversión a formato de texto plano (.txt) es específica para estos formatos, lo que significa que archivos de Plan de Estudios y/o Récord de Notas provenientes de otras universidades podrían tener dificultades de formato y escalabilidad para ser analizados.
 2. La base de datos de libros en formato de archivo de texto (.txt) contiene únicamente 36 libros seleccionados de la sección "Libros Base por Carrera" de la carrera de Ingeniería, obtenidos de la biblioteca virtual de la Universidad Tecnológica del Perú. Estos libros abarcan diversas áreas de Ingeniería, entre las que se incluyen: Sistema e Informática, Biomédica, Electrónica, Económica y Empresarial, Mecatrónica, Eléctrica y de Potencia, Seguridad Industrial y Minera, Telecomunicaciones, Seguridad Laboral y Ambiental, Industrial, Textil y de Confecciones, Minas, y Empresarial.
 
-## Hoja de Ruta
-1. El sistema enfrenta dificultades con la similitud exacta de palabras, las cuales se han abordado en gran medida mediante el archivo de texto "stopwords". Este archivo permite excluir preposiciones, artículos y conectores comunes, evitando que se consideren como sinónimos. Sin embargo, persisten problemas en casos de palabras generales como "general", donde un libro que contiene esta palabra puede ser recomendado para un curso que también la incluye, como por ejemplo, el libro "Química General" recomendado para el curso de "Teoría General de Sistemas". Además, el diccionario de sinónimos creado manualmente es demasiado general y no es escalable para considerar todos los posibles cursos de ingeniería. Por lo tanto, la Recomendación de Libros actualmente solo funciona bien para cursos generales, ya que no se dispone de información sobre los cursos de todas las ingenierías.
+## Roadmap
+1. El sistema enfrenta dificultades con la similitud exacta de palabras, las cuales se han abordado en gran medida mediante el archivo de texto "stopwords". Este archivo permite excluir preposiciones, artículos y conectores comunes, evitando que se consideren como sinónimos. Sin embargo, persisten problemas en casos de palabras generales como, justamente, "general", donde un libro que contiene esta palabra puede ser recomendado para un curso que también la incluye, como por ejemplo, el libro "Química **General**" recomendado para el curso de "Teoría **General** de Sistemas". Además, el diccionario de sinónimos creado manualmente es demasiado general y no es escalable para considerar todos los posibles cursos de Ingeniería. Por lo tanto, la Recomendación de Libros actualmente solo funciona bien para cursos generales, ya que no se dispone de información sobre los cursos específicos de todas las ingenierías.
 
-Para abordar estas limitaciones, se propone el uso de procesamiento de lenguaje natural (NLP) mediante bibliotecas como Stanford NLP Library o Apache OpenNLP, que ofrecen modelos en español y funcionalidades como tokenización y segmentación de oraciones. Si se aplican correctamente, estas herramientas podrían resolver las debilidades del sistema. Aunque se ha estado probando internamente, aún se requiere obtener resultados confiables.
+   Para abordar estas limitaciones, se propone el uso de procesamiento de lenguaje natural (NLP) mediante bibliotecas como Stanford NLP Library o Apache OpenNLP, que ofrecen modelos en español y funcionalidades como tokenización y segmentación de oraciones. Aunque se ha estado probando internamente, aún se requiere obtener resultados confiables para su implementación.
 
-2. 
+2. Me gustaría que este proyecto se expanda en varios aspectos en el futuro. Primero, aumentar la cantidad de libros disponibles en la base de datos. Esto podría lograrse recolectando información manualmente, aunque el proceso consume mucho tiempo. Sería ideal obtener una muestra más amplia por parte de la misma Universidad Tecnológica del Perú.
+
+   Segundo, ampliar la utilidad del proyecto para beneficiar a estudiantes de todas las carreras, no solo de Ingeniería. Esto requeriría la creación de un diccionario más extenso y una base de datos con una variedad más amplia de libros.
+
+   Tercero, extender el proyecto para su uso en otras universidades del Perú, como la Universidad de Lima, la Universidad Peruana de Ciencias Aplicadas, la Universidad San Ignacio de Loyola, la Pontificia Universidad Católica del Perú, la Universidad del Pacífico, entre otras. Para lograr esto, se necesitaría el apoyo de estudiantes de esas universidades para descargar sus respectivos Planes de Estudio y Registros de Notas, y así tomar como ejemplo los formatos de cada universidad para que el sistema pueda realizar un análisis de los documentos. Esto también implicaría obtener información sobre los libros disponibles en las bibliotecas virtuales de cada institución. En consecuencia, sería factible crear un menú que permita a los usuarios seleccionar su universidad para que el sistema pueda leer correctamente sus archivos correspondientes.
 
 ## Screenshots
 
 ## Contribución
+
+
+Actualmente, las notas solo se utilizan para felicitar al usuario en caso de que haya obtenido una calificación de 20 en algún curso. En un principio, consideré agregar funcionalidades adicionales como recomendaciones de cursos electivos, un análisis general del rendimiento y otras ideas similares. Sin embargo, decidí descartarlas antes de la publicación inicial del proyecto. Mantuve la función allí por si en el futuro puedo agregar algo más valioso que mis ideas iniciales.
+
+
 
 ## Licencia
