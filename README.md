@@ -19,7 +19,7 @@ Bibliia es un sistema de recomendación de libros desarrollado en Java que busca
 
 1. Descarga el archivo .exe y ejecútalo.
 2. Se abrirá una ventana de comandos (cmd), en la cual se te solicitará que ingreses la ruta de los archivos del Plan de Estudios (en formato Excel, .xlsx) y posteriormente del Registro de Notas (en formato PDF, .pdf).
-3. Una vez que hayas proporcionado la ruta de ambos archivos, el sistema los convertirá y analizará para ofrecerte recomendaciones basadas en tus cursos "En curso". Además, si has obtenido una calificación de 20 en algún curso, el sistema te felicitará.
+3. Una vez que hayas proporcionado la ruta de ambos archivos, el sistema los convertirá y analizará para ofrecerte recomendaciones basadas en tus cursos `En curso`. Además, si has obtenido una calificación de 20 en algún curso, el sistema te felicitará.
 4. Una vez que hayas revisado las recomendaciones, presiona la tecla Enter para finalizar el proceso.
 
 ### Nota
@@ -63,7 +63,7 @@ El funcionamiento del sistema es el siguiente:
 2. La [base de datos de libros](base_datos_libros.txt) contiene únicamente 36 libros seleccionados de la sección `Libros Base por Carrera` de la carrera de Ingeniería, obtenidos de la biblioteca virtual de la Universidad Tecnológica del Perú. Estos libros abarcan diversas áreas de Ingeniería, entre las que se incluyen: Sistema e Informática, Biomédica, Electrónica, Económica y Empresarial, Mecatrónica, Eléctrica y de Potencia, Seguridad Industrial y Minera, Telecomunicaciones, Seguridad Laboral y Ambiental, Industrial, Textil y de Confecciones, Minas, y Empresarial.
 
 ## Hoja de Ruta
-1. El sistema enfrenta dificultades con la similitud exacta de palabras, las cuales se han abordado en gran medida mediante el archivo de texto [stopwords](stopwords.txt). Este archivo permite excluir preposiciones, artículos y conectores comunes, evitando que se consideren como sinónimos. Sin embargo, persisten problemas en casos de palabras generales como, justamente, "general", donde un libro que contiene esta palabra puede ser recomendado para un curso que también la incluye, como por ejemplo, el libro `Química GENERAL` recomendado para el curso de `Teoría GENERAL de Sistemas`. Además, el diccionario de sinónimos creado manualmente es demasiado general y no es escalable para considerar todos los posibles cursos de Ingeniería. Por lo tanto, la Bibliia actualmente solo funciona bien para cursos generales, ya que no se dispone de información sobre los cursos específicos de todas las ingenierías.
+1. El sistema enfrenta dificultades con la similitud exacta de palabras, las cuales se han abordado en gran medida mediante el archivo de texto [stopwords](stopwords.txt). Este archivo permite excluir preposiciones, artículos y conectores comunes, evitando que se consideren como sinónimos. Sin embargo, persisten problemas en casos de palabras generales como, justamente, "general", donde un libro que contiene esta palabra puede ser recomendado para un curso que también la incluye, como por ejemplo, el libro `Química GENERAL` recomendado para el curso de `Teoría GENERAL de Sistemas`. Además, el diccionario de sinónimos creado manualmente es demasiado general y no es escalable para considerar todos los posibles cursos de Ingeniería. Por lo tanto, Bibliia actualmente solo funciona bien para cursos generales, ya que no se dispone de información sobre los cursos específicos de todas las ingenierías.
 
    Para abordar estas limitaciones, se propone el uso de procesamiento de lenguaje natural (NLP) mediante bibliotecas como Stanford NLP Library o Apache OpenNLP, que ofrecen modelos en español y funcionalidades como tokenización y segmentación de oraciones. Aunque se ha estado probando internamente, aún se requiere obtener resultados confiables para su implementación.
 
@@ -77,7 +77,7 @@ El funcionamiento del sistema es el siguiente:
 
 ## Contribución
 
-¡Las contribuciones de código son bienvenidas! Por favor, confirma cualquier solicitud de extracción en la rama `main`. Obten más información sobre cómo contribuir leyendo las [Pautas de contribución](https://contributing.bitwarden.com/contributing/). Consulta la [Documentación de contribución](https://contributing.bitwarden.com/) para saber cómo comenzar con tu primera contribución.
+¡Las contribuciones de código son bienvenidas! Por favor, confirma cualquier _pull request_ en la rama `main`. Obten más información sobre cómo contribuir leyendo las [Pautas de contribución](https://contributing.bitwarden.com/contributing/). Consulta la [Documentación de contribución](https://contributing.bitwarden.com/) para saber cómo comenzar con tu primera contribución.
 
 La forma más sencilla de contribuir es utilizando Bibliia y enviando cualquier comentario que tengas a mi correo electrónico. Me interesa conocer cómo se utiliza Bibliia en diferentes contextos y estaré encantado de incluir capturas de pantalla en el [README.md](README.md) si las posees. Además, las contribuciones de código son bienvenidas en cualquier forma, desde correcciones ortográficas hasta la implementación de nuevas funciones.
 
