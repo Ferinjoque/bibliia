@@ -13,12 +13,13 @@ Bibliia es un sistema de recomendación de libros desarrollado en Java que busca
 5. [Hoja de Ruta](#hoja-de-ruta)
 6. [Capturas de Pantalla](#capturas-de-pantalla)
 7. [Contribución](#contribución)
-8. [Licencia](#licencia)
+8. [Agradecimientos](#agradecimientos)
+9. [Licencia](#licencia)
 
 ## Inicio Rápido
 
-1. Descarga el archivo .exe y ejecútalo.
-2. Se abrirá una ventana de comandos (cmd), en la cual se te solicitará que ingreses la ruta de los archivos del Plan de Estudios (en formato Excel, .xlsx) y posteriormente del Registro de Notas (en formato PDF, .pdf).
+1. Descarga el archivo [bibliia.exe](bibblia.exe) y ejecútalo.
+2. Se abrirá una ventana de comandos (cmd), en la cual se te solicitará que ingreses la ruta de los archivos del Plan de Estudios (en formato Excel, .xlsx) y posteriormente del Registro de Notas (en formato PDF, .pdf). Puedes probar con los archivos de ejemplo disponibles en la carpeta [archivos-prueba](archivos-prueba)
 3. Una vez que hayas proporcionado la ruta de ambos archivos, el sistema los convertirá y analizará para ofrecerte recomendaciones basadas en tus cursos `En curso`. Además, si has obtenido una calificación de 20 en algún curso, el sistema te felicitará.
 4. Una vez que hayas revisado las recomendaciones, presiona la tecla Enter para finalizar el proceso.
 
