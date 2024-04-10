@@ -12,7 +12,7 @@ Me gustaría animar a las personas a utilizar GitHub para crear _pull requests_.
 Me ayudaría a revisar los parches, organizar ramas con etiquetas e hitos, y apoyar a otros a ver en qué se está trabajando.
 
 ### Correo electrónico
-En caso de que GitHub no funcione o no puedas usarlo por algún otro motivo, puedes enviar un parche a `ferinjoque@gmail.com`.
+En caso de que GitHub no funcione o no puedas usarlo por algún otro motivo, puedes enviar un parche a mi [correo electrónico](mailto:ferinjoque@gmail.com).
 
 ### Reglas
 
