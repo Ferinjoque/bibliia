@@ -75,6 +75,8 @@ El funcionamiento del sistema es el siguiente:
 
 ## Capturas de Pantalla
 
+![Bibliia .exe](imagenes/bibliia-exe.png)
+
 ## Contribución
 
 ¡Las contribuciones de código son bienvenidas! Por favor, confirma cualquier _pull request_ en la rama `main`. Obten más información sobre cómo contribuir leyendo las [Pautas de contribución](https://contributing.bitwarden.com/contributing/). Consulta la [Documentación de contribución](https://contributing.bitwarden.com/) para saber cómo comenzar con tu primera contribución.
