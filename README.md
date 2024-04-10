@@ -85,6 +85,10 @@ La forma más sencilla de contribuir es utilizando Bibliia y enviando cualquier 
 
 Para obtener más detalles, consulta el archivo [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Agradecimientos
+
+* Gracias a Alir3z4 por proporcionar una lista de _stopwords_ comunes del Español. Su repositorio está disponible [aquí](https://github.com/Alir3z4/stop-words).
+
 ## Licencia
 
 GNU General Public License, versión 3 o posterior.
