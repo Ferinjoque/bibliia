@@ -1,6 +1,6 @@
 # Estado del Proyecto
 
-_La última versión es 1.0. Este archivo se actualizó por última vez el 10 de abril de 2024._
+_La última versión es 1.0. Este archivo se actualizó por última vez el 20 de julio de 2024._
 
 # Bibliia - El sistema de recomendación de libros
 
