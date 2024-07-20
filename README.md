@@ -18,8 +18,8 @@ Bibliia es un sistema de recomendación de libros desarrollado en Java que busca
 
 ## Inicio Rápido
 
-1. Descarga el archivo [bibliia.exe](bibliia.exe) y ejecútalo. Debido a que no está licenciado, puede no ejecutarse el .exe; por lo que tendrás que ejecutar manualmente el código Java.
-2. Se abrirá una ventana de comandos (cmd), en la cual se te solicitará que ingreses la ruta de los archivos del Plan de Estudios (en formato Excel, .xlsx) y posteriormente del Registro de Notas (en formato PDF, .pdf). Puedes probar con los archivos de ejemplo disponibles en la carpeta [archivos-prueba](archivos-prueba).
+1. Ejecuta el archivo [Main.java](Main.java) de `src/main/java/com/ferinjoque/university`.
+2. Se te solicitará que ingreses la ruta de los archivos del Plan de Estudios (en formato Excel, .xlsx) y posteriormente del Registro de Notas (en formato PDF, .pdf). Puedes probar con los archivos de ejemplo disponibles en la carpeta [archivos-prueba](archivos-prueba).
 3. Una vez que hayas proporcionado la ruta de ambos archivos, el sistema los convertirá y analizará para ofrecerte recomendaciones basadas en tus cursos `En curso`. Además, si has obtenido una calificación de 20 en algún curso, el sistema te felicitará.
 4. Una vez que hayas revisado las recomendaciones, presiona la tecla Enter para finalizar el proceso.
 
@@ -42,8 +42,6 @@ Es crucial recordar incluir el formato al final del nombre del archivo (`.xlsx` 
 Cualquier espacio adicional antes, después o entre la ruta será considerado como un error. Asegúrate de verificar antes de presionar Enter.
 
 Si estás experimentando dificultades con el archivo Excel, es posible que su extensión sea `.xls` en lugar de `.xlsx`. Para resolver este problema, consulta el punto número 2 de la sección de [Consideraciones](#consideraciones).
-
-Si estás utilizando un antivirus, es posible que inicialmente la ventana de comandos se abra dentro de una instancia creada por el antivirus. Después de analizar el ejecutable durante unos segundos, el antivirus volverá a abrir la ventana de comandos, lo que podría borrar lo que hayas ingresado durante ese período. Por lo tanto, es aconsejable revisar y esperar unos segundos para evitar escribir la información dos veces.
 
 ## Funcionamiento
 
@@ -71,8 +69,6 @@ El funcionamiento del sistema es el siguiente:
 2. Me gustaría que este proyecto se expanda en varios aspectos en el futuro. Primero, aumentar la cantidad de libros disponibles en la base de datos. Esto podría lograrse recolectando información manualmente, aunque el proceso consume mucho tiempo. Sería ideal obtener una muestra más amplia por parte de la misma Universidad Tecnológica del Perú.
 
    Segundo, ampliar la utilidad del proyecto para beneficiar a estudiantes de todas las carreras, no solo de Ingeniería. Esto requeriría la creación de un diccionario más extenso y una base de datos con una variedad más amplia de libros.
-
-   Tercero, extender el proyecto para su uso en otras universidades del Perú, como la Universidad de Lima, la Universidad Peruana de Ciencias Aplicadas, la Universidad San Ignacio de Loyola, la Pontificia Universidad Católica del Perú, la Universidad del Pacífico, entre otras. Para lograr esto, se necesitaría el apoyo de estudiantes de esas universidades para descargar sus respectivos Planes de Estudio y Registros de Notas, y así tomar como ejemplo los formatos de cada universidad para que Bibliia pueda realizar un análisis adecuado de los documentos. Esto también implicaría obtener información sobre los libros disponibles en las bibliotecas virtuales de cada institución. Por lo tanto, sería factible crear un menú que permita a los usuarios seleccionar su universidad para que el sistema pueda leer correctamente sus archivos correspondientes.
 
 ## Capturas de Pantalla
 
