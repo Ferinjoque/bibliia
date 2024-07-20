@@ -18,7 +18,7 @@ Bibliia es un sistema de recomendación de libros desarrollado en Java que busca
 
 ## Inicio Rápido
 
-1. Ejecuta el archivo [src/main](Main.java) de `src/main/java/com/ferinjoque/university`.
+1. Ejecuta el archivo [Main.java](src/main) de `src/main/java/com/ferinjoque/university`.
 2. Se te solicitará que ingreses la ruta de los archivos del Plan de Estudios (en formato Excel, .xlsx) y posteriormente del Registro de Notas (en formato PDF, .pdf). Puedes probar con los archivos de ejemplo disponibles en la carpeta [archivos-prueba](archivos-prueba).
 3. Una vez que hayas proporcionado la ruta de ambos archivos, el sistema los convertirá y analizará para ofrecerte recomendaciones basadas en tus cursos `En curso`. Además, si has obtenido una calificación de 20 en algún curso, el sistema te felicitará.
 4. Una vez que hayas revisado las recomendaciones, presiona la tecla Enter para finalizar el proceso.
